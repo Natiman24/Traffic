@@ -1,0 +1,101 @@
+.password-change-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #edf1fd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.password-change-container-wrapper{
+  background-color: #edf1fd;
+}
+  
+.change_pass-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 0 10px;
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+}
+
+.change_pass{
+  margin: auto auto;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  }
+  
+  .password-change-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 20px;
+   }
+  
+  .pas1, .pas2, .pas3 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+  
+  .pas1{
+    margin-left: 50px;
+  }
+  
+  .pas2{
+    margin-left: 80px;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .submit-button:hover {
+    background-color: #1a4b11;
+  }
+
+  @media (max-width: 768px) {
+    .change_pass{
+      margin: auto auto;
+      margin-top: 50px;
+      text-align: center;
+      font-weight: bolder;
+      margin-bottom: 30px;
+      font-size: 25px;
+      }
+  
+  }

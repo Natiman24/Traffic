@@ -1,0 +1,128 @@
+.Report-table {
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+
+  .Report-table > h1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: auto auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+  table {
+    /*width: 100%;*/
+    border-collapse: collapse;
+    border: 2px solid #4b4b4b;
+    white-space: nowrap; /* Prevent line wrapping */
+  }
+  
+  th{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #4b4b4b;
+
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #4b4b4b;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    border-bottom: 2px solid #4b4b4b;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  .Report2-button, .Report3-button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Report-button-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .Report2-button{
+    background-color:#a50a0a ;
+  }
+  .Report3-button{
+    background-color:#4CAF50;
+  }
+  
+  .Report2-button:hover {
+    background-color:#5f0000 ;
+  }
+
+  .Report3-button:hover {
+    background-color:#1a4b11 ;
+  }
+
+  .Report-table > h3{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+
+    .Report-table{
+      padding: 15px;
+      margin: 10px;
+      overflow-x: auto; /* Enable horizontal scrolling */
+    }
+
+    .Report2-button {
+      padding: 10px 20px;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block;
+    }
+
+   
+    /* Adjust other styles as needed */
+  }
+  
+  /* For screens smaller than 480px */
+  @media (max-width: 480px) {
+    .Report-table{
+      padding: 15px;
+      margin: 10px;
+      overflow-x: auto; /* Enable horizontal scrolling */
+    }
+
+    .Report2-button {
+      padding: 10px 20px;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    /* Adjust other styles as needed */
+  }

@@ -1,0 +1,65 @@
+.navv {
+  background: #001755;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbarrr {
+  display: flex;
+  justify-content: center; /* Changed from "space-between" */
+  align-items: center; /* Added */
+  height: 80px;
+}
+
+
+
+.ethio {
+  color: #fff;
+  margin-left: 10px; /* Added margin for spacing */
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.imgg-logo {
+  width: 60px; /* Adjusted size */
+  height: 60px; /* Adjusted size */
+  border-radius: 100%;
+}
+.notFound {
+  font-size: 200%;
+  color: #333;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.notFound-wrapper{
+  background-color: #edf1fd;
+}
+
+.error {
+  font-size: 110%;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
+.navbarrr-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px; /* Add gap between image and text */
+}
+
+.notFound-header-container{
+  background-color: #edf1fd;
+}

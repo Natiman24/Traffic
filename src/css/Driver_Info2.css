@@ -1,0 +1,143 @@
+.Driver-Info2-table-page {
+  padding: 2%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+.Driver-Info2-table-wrapper{
+  margin: auto auto;
+  background-color: #edf1fd;
+}
+
+/* .Driver-Info2-blank{
+  background-color: #edf1fd;
+   margin-bottom: 7%; 
+} */
+
+.Driver-Info2-table-page > h1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: auto auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Driver-Info2-table-page > button {
+  position: sticky;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.Driver-Info2-table > h1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: auto auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Driver-Info2-table > h3 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Driver-Info2-table {
+  padding: 2%;
+  margin: 1.5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #4b4b4b;
+  white-space: nowrap; /* Prevent line wrapping */
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #4b4b4b;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #4b4b4b;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border-bottom: 2px solid #4b4b4b;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.Driver-Info2-button2{
+  position: sticky;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 30px;
+  background-color:#a50a0a ;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/*.Driver-Info2-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}*/
+
+.Driver-Info2-button:hover  {
+  background-color: #1a4b11;
+}
+.Driver-Info2-button2:hover{
+  background-color:#5f0000 ;
+}
+.overlayy-button{
+  padding: 10px 20px;
+  margin: auto 0;
+  background-color:#a50a0a ;
+  color: white;
+  border-radius: 5px;
+
+}

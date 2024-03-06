@@ -1,0 +1,91 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  
+  background-image: url(../../public/Images/A.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.login-container,.login-form{
+  display: flex;
+  flex-direction: column;
+}
+.login-container{
+  padding: 5rem;
+  border: 0 solid;
+  border-radius: 10px;
+  
+}
+
+.login-title{  
+  color: rgb(109, 109, 109) ;
+  position: relative;
+  top: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+
+  
+}
+
+.login-h1{
+  
+  font-size: 50px;
+}
+
+.login-h2{
+  
+  font-size: 30px;
+}
+
+
+label {
+  font-size: 20px;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px;
+
+}
+button{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#050405;
+
+}
+button:hover{
+  opacity:0.8;
+}
+button:active{
+  opacity: 0.6;
+}
+button:focus{
+  outline: none;
+}
+input.error-input {
+  border: 2px solid rgb(207, 43, 43);
+}
+.fa-eye{
+  position: absolute;
+  top: 66%;
+  left: 67%;
+  cursor: pointer;
+  color: lightgray;
+}

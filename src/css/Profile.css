@@ -1,0 +1,78 @@
+.Profile-container-wrapper{
+    background-color: #edf1fd;
+  }
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 0 10px;
+    background-color: #f5f5f5;
+}
+
+.Profile-h1 {
+    margin: auto auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.Profile-containerr {
+    max-width: 50%; 
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #edf1fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Profile-info{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Profile-info :last-child{
+    margin-top: 36px;
+}
+
+
+.Profile-button1, .Profile-button2 {
+    padding: 10px 5px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.Profile-button1 {
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+}
+
+.Profile-button2 {
+    background-color: #a50a0a;
+}
+
+.Profile-button1:hover {
+    background-color: #1a4b11;
+}
+
+.Profile-button2:hover {
+    background-color: #5f0000 ;
+}
+
+.Profile-button-container {
+    display: flex;
+    flex-direction: column;   
+    gap: 10px;
+}
